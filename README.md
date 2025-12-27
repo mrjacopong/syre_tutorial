@@ -1,5 +1,5 @@
-[![DOI](https://img.shields.io/badge/DOI-zenodo-blue)](XXX)
-[![View on Matlab File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](XXX)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18068584-blue)](https://doi.org/10.5281/zenodo.18068583)
+[![View syre_tutorial on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://it.mathworks.com/matlabcentral/fileexchange/182919-syre_tutorial)
 [![View on GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/mrjacopong/syre_tutorial)
 
 # SyR-e Tutorial 
