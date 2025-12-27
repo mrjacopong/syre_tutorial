@@ -1,0 +1,21 @@
+FILE - back-compatibility
+Line - 1330
+Modified:
+
+  if isfield(dataSet,'AngleSpanOfPM’)
+    dataSet.ALPHAdeg = dataSet.AngleSpanOfPM;
+    dataSet.ALPHApu  = dataSet.AngleSpanOfPM/180;
+    dataSet = rmfield(dataSet,'AngleSpanOfPM’);
+  end
+end
+dataSet = rmfield(dataSet,'ThicknessOfPM');
+flagClear = 1;
+
+
+
+
+FILE - Motor_ctrl
+Line - 562
+Added:
+
+float delta_MTPV_max=90;
